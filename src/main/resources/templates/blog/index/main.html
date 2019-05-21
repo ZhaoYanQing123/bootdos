@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" th:content="${website.keyword}" />
+	<meta name="description" th:content="${website.descr}" />
+	<title th:text="${website.title}"></title>
+	<!--<title th:text="${bContent}"></title>-->
+	<link rel="stylesheet" href="/css/public.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<script src="/js/jquery.min.js"></script>
+	<!-- 轮播图 -->
+	<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
+
+</head>
+<body>
+<!-- 头部 -->
+<div class="head">
+	<div class="wrap clearfix">
+		<div class="logo">
+			<a href=""><img src="/images/logo.png" alt=""></a>
+		</div>
+		<div class="sch clearfix">
+			<input class="i2" type="submit" value="搜索">
+			<input class="i1" type="text">
+		</div>
+	</div>
+</div>
+<!-- 导航 -->
+<div class="nav">
+	<div class="wrap">
+		<a class="on" href="">首页</a>
+		<a href="">关于我们</a>
+		<a href="">病媒防治</a>
+		<a href="">白蚁防治</a>
+		<a href="">专业消毒</a>
+		<a href="">新闻中心</a>
+		<a href="">产品中心</a>
+		<a href="">成功案例</a>
+		<a href="">视频中心</a>
+		<a href="">商务留言</a>
+		<a href="">联系我们</a>
+	</div>
+</div>
+<!-- 轮播图 -->
+<div class="banner">
+	<div class="block_home_slider">
+		<div id="home_slider" class="flexslider">
+			<ul class="slides">
+				<li>
+					<div class="slide">
+						<img src="tu/banner1.png" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="slide">
+						<img src="tu/banner1.png" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="slide">
+						<img src="tu/banner1.png" alt="" />
+					</div>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+            $(function () {
+                $('#home_slider').flexslider({
+                    animation : 'slide',
+                    controlNav : true,
+                    directionNav : true,
+                    slideshowSpeed: 4000,
+                    animationLoop : true,
+                    slideshow : true,
+                    useCSS : false
+                });
+            });
+		</script>
+	</div>
+</div>
+<!-- 企业简介、新闻动态 -->
+<div class="main">
+	<div class="wrap clearfix">
+		<!-- 企业简介 -->
+		<div class="main_common info">
+			<div class="tit clearfix">
+				<h3>企业<span>简介</span></h3>
+				<a href="">+</a>
+			</div>
+			<div class="con">
+				<img src="images/main1.png" alt="">
+				<p>生物防治（biological control），就是利用一种生物对付另外一种生物的方法。生物防治，大致可以分为以虫治虫、以鸟治虫和以菌治虫三大类。它是降低杂草和害虫等有害生物种群密度的一种方法。它利用了生物物种间的相互关系，以一种或一类生物抑制另一种或另一类生物。</p>
+				<p>服务理念： 科技创新 、安全高效、绿色防治。</p>
+				<p>服务标准： 服务标准达到《全国爱卫会除四害标准》。</p>
+				<p>服务承诺：施药后有害生物密度达到全国爱卫会监测标准；确保施药安全对人体无害，对环境无污染。</p>
+			</div>
+		</div>
+		<!-- 新闻动态 -->
+		<div class="main_common latest">
+			<div class="tit clearfix">
+				<h3>新闻<span>动态</span></h3>
+				<a href="">+</a>
+			</div>
+			<div class="con">
+				<ul>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度群密度的的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+					<li><a href="">降低杂草和害虫等有害生物种群密度群密度的一种</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 松荣实业 -->
+		<div class="songrong">
+			<div class="tit">
+				<img src="images/main3.png" alt="">
+			</div>
+			<div class="con">
+				<ul class="clearfix">
+					<li class="l1">
+						<a href="">
+							<p>鼠类<br>防治</p>
+						</a>
+					</li>
+					<li class="l2">
+						<a href="">
+							<p>鼠类<br>防治</p>
+						</a>
+					</li>
+					<li class="l3">
+						<a href="">
+							<p>鼠类<br>防治</p>
+						</a>
+					</li>
+					<li class="l4">
+						<a href="">
+							<p>鼠类<br>防治</p>
+						</a>
+					</li>
+					<li class="l5">
+						<a href="">
+							<p>鼠类<br>防治</p>
+						</a>
+					</li>
+					<li class="l6">
+						<a href="">
+							<p>鼠类<br>防治</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="songrong_phone">
+				<img src="images/phone.png" alt="">
+			</div>
+			<div class="songrong_code clearfix">
+				<div class="songrong_code_con songrong_code_con1">
+					<img src="images/code1.png" alt="">
+					<p>松荣官方微信</p>
+				</div>
+				<div class="songrong_code_con songrong_code_con2">
+					<img src="images/code1.png" alt="">
+					<p>松荣官方微博</p>
+				</div>
+			</div>
+		</div>
+		<!-- 防治说明 -->
+		<div class="shuoming clearfix">
+			<ul>
+				<li>
+					<a href="">
+						<h3>白蚁防治说明</h3>
+						<img src="tu/shuoming1.jpg" alt="">
+						<p>一、白蚁的种类白蚁的种类有很多种，我国已知有白蚁四科、四十七属、四百八</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<h3>白蚁防治说明</h3>
+						<img src="tu/shuoming22.jpg" alt="">
+						<p>一、白蚁的种类白蚁的种类有很多种，我国已知有白蚁四科、四十七属、四百八</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<h3>白蚁防治说明</h3>
+						<img src="tu/shuoming3.jpg" alt="">
+						<p>一、白蚁的种类白蚁的种类有很多种，我国已知有白蚁四科、四十七属、四百八十七属、四百</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<h3>白蚁防治说明</h3>
+						<img src="tu/shuoming4.jpg" alt="">
+						<p>一、白蚁的种类白蚁的种类有很多种，我国已知有白蚁四科、四十七属、四百八</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="case">
+	<div class="wrap">
+		<div class="tit">
+			<h3>新闻<span>动态</span></h3>
+		</div>
+		<div id="zsgun">
+			<a href="#" class="prenext zspre"></a>
+			<a href="#" class="prenext zsnext"></a>
+			<div id="gundiv" class="container2">
+				<ul>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<div class="pic">
+								<img src="images/case1.jpg"/>
+							</div>
+							<p>外环境消杀</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/hScrollPane.js"></script>
+		<script type="text/javascript">$(function() {
+            var glen = $("#gundiv ul li").length;
+            $("#gundiv ul").css("width", 219 * (glen));
+            // $("#gundiv li").hover(function() {
+            //   $("#gundiv li").removeClass("zslion");
+            //   $(this).addClass("zslion");
+            // },
+            // function() {
+            //   $(this).removeClass("zslion");
+            // })
+        });
+        $("#zsgun").hScrollPane({
+            mover: "ul",
+            moverW: function() {
+                return $("#zsgun li").length * 219-23;
+            } (),
+            showArrow: true,
+            handleCssAlter: "draghandlealter"
+        });</script>
+	</div>
+</div>
+<!-- 解决方案 -->
+<div class="fangan">
+	<div class="wrap">
+		<div class="com_list clearfix">
+			<dl class="d1">
+				<dt><h3>解决方案</h3></dt>
+				<dd><i>02/26</i><a href="#">德意志银行分析师:我想了解银行分析一下你们</a></dd>
+				<dd><i>02/26</i><a href="#">J33北京佳一集藏开户送银行分礼活动</a></dd>
+				<dd><i>02/26</i><a href="#">“金秋八月，开户有礼”会员银行分配售动！</a></dd>
+				<dd><i>02/26</i><a href="#">八月经纪会员配售奖励活动重银行分析磅袭！我想了解银行分析一下你们</a></dd>
+				<dd><i>02/26</i><a href="#">德意志银行分析师:我想了解银行分析一下你们</a></dd>
+			</dl>
+			<dl class="d2">
+				<dt><h3>药械知识</h3></dt>
+				<dd><a href="#">德意志银行分析师:我想了解银行分析一下你们</a></dd>
+				<dd><a href="#">J33北京佳一集藏开户送银行分礼活动</a></dd>
+				<dd><a href="#">“金秋八月，开户有礼”会员银行分配售动！</a></dd>
+				<dd><a href="#">八月经纪会员配售奖励活动重银行分析磅袭！我想了解银行分析一下你们</a></dd>
+				<dd><a href="#">德意志银行分析师:我想了解银行分析一下你们</a></dd>
+			</dl>
+			<dl class="d2">
+				<dt><h3>政策法规</h3></dt>
+				<dd><a href="#">德意志银行分析师:我想了解银行分析一下你们</a></dd>
+				<dd><a href="#">J33北京佳一集藏开户送银行分礼活动</a></dd>
+				<dd><a href="#">“金秋八月，开户有礼”会员银行分配售动！</a></dd>
+				<dd><a href="#">八月经纪会员配售奖励活动重银行分析磅袭！我想了解银行分析一下你们</a></dd>
+				<dd><a href="#">德意志银行分析师:我想了解银行分析一下你们</a></dd>
+			</dl>
+		</div>
+	</div>
+</div>
+<!-- 行业新闻 -->
+<div class="hangyexinwen">
+	<div class="wrap clearfix">
+		<dl class="d1">
+			<dt><h3><a href="">行业新闻</a></h3></dt>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+		</dl>
+		<dl class="d2">
+			<dt><h3><a href="">行业新闻</a></h3></dt>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+		</dl>
+		<dl class="d3">
+			<dt><h3><a href="">行业新闻</a></h3></dt>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+			<dd><a href="">外观设计上没有太大变化的部分原因是</a></dd>
+		</dl>
+	</div>
+</div>
+<!-- 友情连接 -->
+<div class="links">
+	<div class="wrap">
+		<div class="tit"><h3>友情<span>连接</span></h3></div>
+		<div class="con">
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+			<a href=""><img src="images/links1.jpg" alt=""></a>
+		</div>
+	</div>
+</div>
+<!-- 底部 -->
+<div class="foot">
+	<div class="wrap">
+		<div class="top"><img src="images/logo1.png" alt=""></div>
+		<div class="btm clearfix">
+			<ul>
+				<li><a href="">公司介绍</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">主营业务</a></li>
+				<li><a href="">荣誉资质</a></li>
+			</ul>
+			<ul>
+				<li><a href="">病媒防治</a></li>
+				<li><a href="">白蚁防治</a></li>
+				<li><a href="">专业消毒</a></li>
+			</ul>
+			<ul>
+				<li><a href="">成功案例</a></li>
+				<li><a href="">视频中心</a></li>
+				<li><a href="">商务留言</a></li>
+			</ul>
+			<div class="contact">
+				<h4 class="a1">QQ咨询</h4>
+				<p>3325985623</p>
+				<h4 class="a11">公司地址</h4>
+				<p>郑州市郑东新区金水东路与博学路河南省中医学院家属院8号楼8001号</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 版权 -->
+<div class="copyright">
+	<p th:text="${website.baknumAndVersions}"></p>
+</div>
+</body>
+</html>
